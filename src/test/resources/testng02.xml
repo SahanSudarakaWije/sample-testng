@@ -1,0 +1,8 @@
+<suite name="TestPack01" parallel = "tests" thread-count="2">
+    <test name = "2nd test cases">
+        <parameter name = "browser" value = "edge"/>
+        <classes name = "TestPack02">
+            <class name="com.ucsc.day8.TestSuite02"/>
+        </classes>
+    </test>
+</suite>
